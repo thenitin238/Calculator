@@ -5,6 +5,9 @@ function Apendvalue(value) {
 function ClearDisplay() {
     display.value = "";
 }
+function backspace() {
+    display.value = display.value.slice(0, -1);
+}
 function calculate() {
     try {
         display.value = eval(display.value);
@@ -22,6 +25,10 @@ document.addEventListener("keydown", function (event) {
     //operators
     else if (key == '+' || key == '-' || key == '*' || key == '/') {
         Apendvalue(key);
+    }
+    // BackSpace
+    else if (key == "Backspace") {
+        backsapce();
     }
     //Decimal
     else if (key == '.') {

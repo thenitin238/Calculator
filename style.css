@@ -44,3 +44,17 @@ button:hover {
     background-color: #555;
     
 }
+#ans{
+    width: 300px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+#ans:hover{
+    background-color: #555;
+}

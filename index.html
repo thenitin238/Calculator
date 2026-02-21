@@ -15,24 +15,30 @@
         </div>
         <div class="btn">
             <button onclick="ClearDisplay()">C</button>
+            <button onclick="backspace()">⌫</button>
             <button onclick="Apendvalue('/')">/</button>
             <button onclick="Apendvalue('*')">*</button>
-            <button onclick="Apendvalue('-')">-</button>
 
             <button onclick="Apendvalue('7')">7</button>
             <button onclick="Apendvalue('8')">8</button>
             <button onclick="Apendvalue('9')">9</button>
-            <button onclick="Apendvalue('+')">+</button>
+            <button onclick="Apendvalue('-')">-</button>
 
             <button onclick="Apendvalue('4')">4</button>
             <button onclick="Apendvalue('5')">5</button>
             <button onclick="Apendvalue('6')">6</button>
-            <button onclick="calculate()">=</button>
+            <button onclick="Apendvalue('+')">+</button>
 
             <button onclick="Apendvalue('1')">1</button>
             <button onclick="Apendvalue('2')">2</button>
             <button onclick="Apendvalue('3')">3</button>
             <button onclick="Apendvalue('0')">0</button>
+
+            
+        </div>
+        <div>
+
+            <button id="ans" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="script.js"></script>
