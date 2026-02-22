@@ -27,8 +27,8 @@ document.addEventListener("keydown", function (event) {
         Apendvalue(key);
     }
     // BackSpace
-    else if (key == "Backspace") {
-        backsapce();
+    else if (key === "Backspace") {
+        backspace();
     }
     //Decimal
     else if (key == '.') {
