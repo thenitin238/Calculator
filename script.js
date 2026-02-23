@@ -15,7 +15,6 @@ function calculate() {
         display.value = "error";
     }
 }
-
 document.addEventListener("keydown", function (event) {
     let key = event.key;
     // Numebers
