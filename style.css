@@ -5,7 +5,9 @@
     padding: 20px;
     border-radius: 20px;
 }
-
+body{
+    background: #000;
+}
 .input {
     display: flex;
     justify-content: center;
