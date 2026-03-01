@@ -11,34 +11,38 @@
 <body>
     <div class="calculator">
         <div class="input">
-            <input type="text" id="display" readonly placeholder="Calculate">
+            <input type="text" id="display" readonly placeholder="0">
         </div>
         <div class="btn">
-            <button onclick="ClearDisplay()">C</button>
-            <button onclick="backspace()">⌫</button>
-            <button onclick="Apendvalue('/')">/</button>
-            <button onclick="Apendvalue('*')">*</button>
+            <button onclick="ClearDisplay()" class="green">AL</button>
+            <button onclick="backspace()" class="green">DEL</button>
+            <button onclick="Apendvalue('%')" class="green">%</button>
+            <button onclick="Apendvalue('/')" class="green">/</button>
 
             <button onclick="Apendvalue('7')">7</button>
             <button onclick="Apendvalue('8')">8</button>
             <button onclick="Apendvalue('9')">9</button>
-            <button onclick="Apendvalue('-')">-</button>
+            <button onclick="Apendvalue('*')" class="green">*</button>
 
             <button onclick="Apendvalue('4')">4</button>
             <button onclick="Apendvalue('5')">5</button>
             <button onclick="Apendvalue('6')">6</button>
-            <button onclick="Apendvalue('+')">+</button>
+            <button onclick="Apendvalue('-')" class="green">-</button>
 
             <button onclick="Apendvalue('1')">1</button>
             <button onclick="Apendvalue('2')">2</button>
             <button onclick="Apendvalue('3')">3</button>
+            <button onclick="Apendvalue('+')" class="green">+</button>
+            <button onclick="Apendvalue('00')">00</button>
             <button onclick="Apendvalue('0')">0</button>
+            <button onclick="Apendvalue('.')">.</button>
+            
+            <button id="ans" onclick="calculate()" class="equal">=</button>
 
             
         </div>
         <div>
 
-            <button id="ans" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="script.js"></script>
