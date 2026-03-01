@@ -22,7 +22,7 @@ document.addEventListener("keydown", function (event) {
         Apendvalue(key);
     }
     //operators
-    else if (key == '+' || key == '-' || key == '*' || key == '/') {
+    else if (key == '+' || key == '-' || key == '*' || key == '/' || key=="%") {
         Apendvalue(key);
     }
     // BackSpace
